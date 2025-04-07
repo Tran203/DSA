@@ -1,0 +1,13 @@
+Multi Dimensional Arrays[Matrix]
+   -Array of arrays
+
+	1  2  3
+	4  5  6
+	7  8  9
+
+Syntax
+	datatype[][] array = new datatype[][];
+	datatype[rows][cols]
+
+
+*It mandatory to have number of rows when initialising

@@ -1,0 +1,6 @@
+Array is a collection of data types 
+	e.g {1,2,3}
+
+Syntax 
+	datatype [] variable  = new datatype[size];
+			      = {1,2,3}
