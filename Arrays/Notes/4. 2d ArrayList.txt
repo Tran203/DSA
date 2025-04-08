@@ -1,0 +1,12 @@
+ArrayList Matrix
+
+
+Sytnatx 
+
+	ArrayList<ArrayList<datatype>> variable = new ArrayList<>();
+
+
+	Remember to initialise
+	for(interate through your rows){
+	   list.add(new ArrayList<>())
+	}

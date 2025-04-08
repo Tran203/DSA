@@ -11,3 +11,11 @@ Syntax
 
 
 *It mandatory to have number of rows when initialising
+
+Input
+
+for(rows){
+  for(cols){
+
+
+Excerise Populate the matrix

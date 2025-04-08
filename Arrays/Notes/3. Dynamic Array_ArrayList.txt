@@ -1,0 +1,17 @@
+Arraylist
+ are not of fixed sized, Java is our helper
+
+ *collection of data types  WHERE we don't know the size
+
+
+Sytanx 
+	ArrayList<datatype> variable = new ArrayList<>();
+
+//Possile Actions
+	Adding
+	   list.add(value)
+	Set
+           list.set(index, value)
+	Find
+	  list.get(index) or list.contains(value)
+	   
