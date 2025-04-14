@@ -1,0 +1,49 @@
+Swapping and array
+	-call the swap method
+Swap(array, index1, index2){
+	int temp = array[index1]
+	array[index1] = array[index2]
+	array[index2] = temp
+}
+============================================
+Reversing an Array
+ 	-Similar to swipe[difference we are only swaping the start and the end values, until start is greater that end]
+
+Reverse(array){
+ int start = 0;
+ int end = arr.length-1;
+
+ //
+ While(start < end){
+  //call swap method
+ swap(array, start, end);
+
+ start++;
+ end--;
+
+}
+}
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Finding the Maximum
+	-iterate through the array and find the max
+	-call the maximum method
+max(array){
+int potentialMax = array[0];
+
+  for(){
+	if(array[i] > potentialMax){
+	potentialMax = array[i]	
+  }
+ }
+
+ return potentialMax;	
+}
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+
