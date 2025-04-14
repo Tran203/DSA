@@ -1,0 +1,17 @@
+Diagionals
+ -Always know n
+  -Expect two diagonals:
+	1. Main Diagonal = matrix[i][i]
+	2. Anti Diagonal = matrix[i][n-1-i]
+
+n = matrix.length;
+
+//Main Diagonal Math
+for(int i =0; I < n; i++){
+  matrix[i][i];
+}
+
+//Anti-Diagonal Math
+for(int i=0; I < n;++){
+  matrix[i][n-1-i]
+}
