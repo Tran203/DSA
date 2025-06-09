@@ -6,8 +6,8 @@ class Solution {
         //Find the midpoint
         for(int i = 0; i < n; i++){
             //Split and Populate the shuffled value
-            shuffle[2*i] = nums[i]; //Takes values fr
-            shuffle[(2*i) + 1] = nums[i + n];
+            shuffle[2*i] = nums[i]; //Takes values from first half
+            shuffle[(2*i) + 1] = nums[i + n]; //from second half
         }
 
         return shuffle;
