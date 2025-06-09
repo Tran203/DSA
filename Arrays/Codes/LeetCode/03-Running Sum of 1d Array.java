@@ -1,20 +1,17 @@
 class Solution {
     public int[] runningSum(int[] nums) {
-        //
-        int[] runningSum = new int[nums.length];
-         
+        //Declare
+        int currentSum = 0;
+        int[] ans = new int[nums.length];
 
-        //loop the array
-        for (int i = 0; i < nums.length; i++) {
-            //loop through the possible values
-            int sum = 0;
-            for(int j = 0; j <= i; j++){
-                sum += nums[j];
-            }
-            runningSum[i] = sum;
+        for(int i =  0; i < nums.length; i ++){
+            currentSum += nums[i];
+
+            //populate ans
+            ans[i] = currentSum;
         }
 
-        return runningSum;
+        return ans;
     }
 }
 
